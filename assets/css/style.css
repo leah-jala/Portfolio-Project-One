@@ -2,12 +2,15 @@
 
 /* Global properties */
 /* Header and Nav bar */
+/* Dropdown Button Rules */
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     line-height: 1.5;
     padding: 0;
+    border: none;
 }
 
 body {
@@ -56,6 +59,51 @@ nav li {
     color: #C39D16;
 }
 
+/* Dropdown Button Rules */
+
+.dropbtn {
+    background: #3C3B6E;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: inherit;
+    padding:0;
+}
+
+.dropdown-content {
+    display: none;
+    flex-wrap: wrap;
+    font-size: 90%;
+    text-align: left;
+    height:fit-content;
+    max-width: 140px;
+    position: absolute;
+    z-index: 1;
+    overflow:hidden;
+    background:#B42033;
+    padding: 5px 20px 10px;
+    margin-top:10px;
+    margin-left: -10px;
+}
+
+.dropdown-content a {
+    padding-top: 5px;
+}
+.dropdown:hover .dropbtn {
+    background: #B42033;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    background: #B42033;
+}
+#menu li:hover {
+    background-color: #B42033;
+}
+.dropdown:hover, .dropbtn:hover {
+    background: #B42033;
+}
+.dropdown-content a:hover {
+    color: #E2CA94;
+}
 
 /* Credits 
 Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
