@@ -4,6 +4,8 @@
     /* Font-Size and Letter Spacing */
 /* Header and Nav bar */
 /* Dropdown Button Rules */
+/* Hero and section images */
+
 
 /* Global properties */
 * {
@@ -110,6 +112,22 @@ nav li {
     color: #E2CA94;
 }
 
+/* Hero and section images */
+
+
+#hero-outer {
+    display:block;
+    height: 150px;
+    width: 100%;
+}
+
+#hero {
+    background-image: url("../images/hero.webp");
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    background-size: cover; 
+}
 
 @media only screen and (min-width: 600px) {
     #menu, h1 {
@@ -119,6 +137,10 @@ nav li {
         justify-content: flex-end;
         font-size: 110%;
     }
+
+
+
+
 /* Credits & notes
 Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
 Dropdown button from W3 Schools - used CodePen to get it right
