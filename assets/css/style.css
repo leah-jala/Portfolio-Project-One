@@ -23,6 +23,10 @@ body {
     max-width: 1600px;
 }
 
+p {
+    padding: 10px;
+}
+
 /* Font-Size and Letter Spacing */
 
 h1 {
@@ -128,6 +132,31 @@ nav li {
     width: 100%;
     background-size: cover; 
 }
+
+/* Introduction Section */
+
+.intro {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.intro-box {
+    background-color: hsl(241, 30%, 33%);
+    color: #FEFEFE;
+    padding: 20px;
+}
+
+.intro-box h2 {
+    padding: 0 0 10px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-width: thin;
+    width: fit-content;
+    margin:auto;
+}
+
+/* Media Queries */
 
 @media only screen and (min-width: 600px) {
     #menu, h1 {
