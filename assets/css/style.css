@@ -180,11 +180,26 @@ nav li {
     color:#3C3B6E;
 }
 
-.stage p {
-    padding: 0px 20px 20px 20px;
+.webcard p {
+    padding: 10px 20px 20px;
     color:#3C3B6E;
 }
+.webcard-link{
+    display: block;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    color:#FEFEFE;
+    padding: 10px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.webcard-link:hover {
+    background-color: #B42033;
+}
 
 /* Media Queries */
 
