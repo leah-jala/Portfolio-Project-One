@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300;400&display=swap');
 
-
 /* Global properties */
+/* Header and Nav bar */
 
 * {
     box-sizing: border-box;
@@ -13,8 +13,50 @@
 body {
     background-color: #C5C4D4;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
     margin: 0 auto;
     max-width: 1600px;
-
 }
+
+/* Header and Nav bar */
+
+header {
+    display:block;
+    background-color: #b42033;
+}
+header ul {
+    list-style: none;
+}
+
+header a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+#logo {
+    padding: 20px;
+}
+nav {
+    display: grid;
+    grid-template-columns: minmax(auto, 1400px);
+    background-color: #3C3B6E;
+    padding: 10px 0;
+}
+
+nav li {
+    padding: 0 10px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.active {
+    color: #C39D16;
+}
+
+
+/* Credits 
+Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
+*/
