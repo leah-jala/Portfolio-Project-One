@@ -175,12 +175,12 @@ nav li {
     width: 100%;   
 }
 
-.stage h3 {
+.webcards h3 {
     padding: 20x 20px 10px;
     color:#3C3B6E;
 }
 
-.webcard p {
+.webcards p {
     padding: 10px 20px 20px;
     color:#3C3B6E;
 }
