@@ -155,6 +155,21 @@ nav li {
     width: fit-content;
     margin:auto;
 }
+/* Main homepage content - 3 sections/boxes with stages */
+
+.stages {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    max-width: 1400px;  
+}
+
+.webcards {
+    max-height: auto;
+    width: 100%;   
+}
+
 
 /* Media Queries */
 
