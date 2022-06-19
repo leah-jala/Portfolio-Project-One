@@ -117,14 +117,14 @@ nav li {
 
 #hero-outer {
     display:block;
-    height: 150px;
+    height: 200px;
     width: 100%;
 }
 
 #hero {
     background-image: url("../images/hero.webp");
     background-position: center;
-    height: 150px;
+    height: 200px;
     width: 100%;
     background-size: cover; 
 }
@@ -138,7 +138,17 @@ nav li {
         font-size: 110%;
     }
 
+    #hero, #hero-outer {
+        height: 300px;
+    }
 
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero, #hero-outer {
+        height: 400px;
+    }
+}
 
 
 /* Credits & notes
