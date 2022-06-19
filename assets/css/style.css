@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300;400&display=swap');
 
 /* Global properties */
+    /* Font-Size and Letter Spacing */
 /* Header and Nav bar */
 /* Dropdown Button Rules */
 
-
+/* Global properties */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -20,6 +21,11 @@ body {
     max-width: 1600px;
 }
 
+/* Font-Size and Letter Spacing */
+
+h1 {
+    font-size: 150%;
+}
 /* Header and Nav bar */
 
 header {
@@ -104,6 +110,15 @@ nav li {
     color: #E2CA94;
 }
 
+
+@media only screen and (min-width: 600px) {
+    #menu, h1 {
+        font-size: 200%;
+    }
+    #menu {
+        justify-content: flex-end;
+        font-size: 110%;
+    }
 /* Credits & notes
 Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
 Dropdown button from W3 Schools - used CodePen to get it right
