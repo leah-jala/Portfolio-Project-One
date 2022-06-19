@@ -26,7 +26,12 @@ body {
 p {
     padding: 10px;
 }
-
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 /* Font-Size and Letter Spacing */
 
 h1 {
@@ -157,17 +162,27 @@ nav li {
 }
 /* Main homepage content - 3 sections/boxes with stages */
 
-.stages {
+.webcards {
     display: grid;
     grid-gap: 5%;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 0 auto;
     max-width: 1400px;  
 }
 
-.webcards {
+.webcard-img {
     max-height: auto;
     width: 100%;   
+}
+
+.stage h3 {
+    padding: 10px 20px;
+    color:#3C3B6E;
+}
+
+.stage p {
+    padding: 0px 20px 20px 20px;
+    color:#3C3B6E;
 }
 
 
