@@ -176,7 +176,7 @@ nav li {
 }
 
 .stage h3 {
-    padding: 10px 20px;
+    padding: 20x 20px 10px;
     color:#3C3B6E;
 }
 
@@ -285,6 +285,9 @@ footer {
 @media only screen and (min-width: 1200px) {
     #hero, #hero-outer {
         height: 400px;
+    }
+    .webcards p {
+        height: 100px;
     }
     footer {
         margin-top: 35px;
