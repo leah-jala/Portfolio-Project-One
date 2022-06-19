@@ -184,6 +184,11 @@ nav li {
     padding: 10px 20px 20px;
     color:#3C3B6E;
 }
+.webcards li {
+    box-shadow: 5px 10px #3C3B6E;   
+    background-color: #FEFEFE;
+    text-align: center;
+}
 .webcard-link{
     display: block;
     text-decoration: none;
@@ -191,9 +196,7 @@ nav li {
     color:#FEFEFE;
     padding: 10px;
     width: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
     text-align: center;
 }
 
