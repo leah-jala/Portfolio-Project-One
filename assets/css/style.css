@@ -260,7 +260,10 @@ footer {
         font-size: 110%;
     }
 
-    #hero, #hero-outer {
+    #hero, 
+    #hero-outer,
+    .stage-container,
+    #stage-one-img {
         height: 300px;
     }
 
@@ -299,7 +302,10 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {
-    #hero, #hero-outer {
+    #hero, 
+    #hero-outer,
+    .stage-container,
+    #stage-one-img {
         height: 400px;
     }
     .webcards p {
