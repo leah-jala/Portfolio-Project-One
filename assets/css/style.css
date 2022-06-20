@@ -233,6 +233,22 @@ footer {
     color:#FEFEFE;
 }
 
+/* Stage one page - Prepare */
+.stage-container {
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+#stage-one-img {
+    background-image: url("../images/pontoon.webp");
+    height: 200px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #B42033;
+}
+
+
 /* Media Queries */
 
 @media only screen and (min-width: 600px) {
