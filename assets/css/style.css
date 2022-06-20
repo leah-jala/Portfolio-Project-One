@@ -23,7 +23,7 @@ body {
     max-width: 1600px;
 }
 
-p {
+h3, h4, p {
     padding: 10px;
 }
 a {
@@ -246,6 +246,36 @@ footer {
     background-position: top;
     background-repeat: no-repeat;
     background-color: #B42033;
+}
+.prep-art-container {
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(auto, 1fr));
+    gap: .5%;
+    margin: 0 auto;
+}
+.prep-article {
+    display: grid;
+    color:#3C3B6E;
+    background-color:#FEFEFE;
+    padding: 20px;
+}
+
+#prep-art-one img {
+    display: block;
+    object-fit: cover;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+}
+
+#prep-art-two img {
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    height: 300px;
+    width: auto;
+    margin: 0 auto 10px auto;
 }
 
 
