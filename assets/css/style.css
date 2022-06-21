@@ -24,13 +24,17 @@ body {
 }
 
 h3, h4, p {
-    padding: 10px;
+    padding: 10px 20px;
 }
 a {
     text-decoration: none;
 }
 ul {
     list-style: none;
+}
+
+li {
+    padding: 0 0 10px 20px;
 }
 /* Font-Size and Letter Spacing */
 
@@ -359,4 +363,6 @@ Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designe
 Dropdown button from W3 Schools - used CodePen to get it right
 
 Prevent grid from overflowing: https://stackoverflow.com/questions/43311943/prevent-content-from-expanding-grid-items
+
+How to use font awesome icons as bullet points. https://hollypryce.com/font-awesome-bullet-points/
 */
