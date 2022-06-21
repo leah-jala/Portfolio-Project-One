@@ -262,6 +262,8 @@ footer {
 }
 
 
+
+
 /* Stage one page - Prepare */
 
 
@@ -327,6 +329,9 @@ footer {
     #prep-art-two img {
         width:auto;
         height: 300px;
+    }
+    .prep-box ul {
+        padding-left: 50px;
     }
     footer {
         margin-top: 125px;
