@@ -234,6 +234,7 @@ footer {
 }
 
 /* Stage one page - Prepare */
+
 .stage-container {
     display: block;
     height: 200px;
@@ -251,31 +252,36 @@ footer {
     max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(auto, minmax(auto, 1fr));
-    gap: .5%;
-    margin: 0 auto;
+    margin: 10px auto;
+    
 }
 .prep-article {
-    display: grid;
     color:#3C3B6E;
     background-color:#FEFEFE;
     padding: 20px;
+    overflow:visible;
+    min-width: 0;
+    min-height: 0;
+    margin: 5px auto;
 }
 
 #prep-art-one img {
     display: block;
     object-fit: cover;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto 10px auto;
+    height: 150px;
+    min-width: 0;
+    min-height: 0;
+    margin: 0 auto 20px;
+
 }
 
 #prep-art-two img {
     display: block;
     object-fit: cover;
-    overflow: hidden;
-    height: 300px;
-    width: auto;
-    margin: 0 auto 10px auto;
+    height: 150px;
+    min-width: 0;
+    min-height: 0;
+    margin: 0 auto 20px;
 }
 
 
@@ -350,4 +356,6 @@ footer {
 /* Credits & notes
 Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
 Dropdown button from W3 Schools - used CodePen to get it right
+
+Prevent grid from overflowing: https://stackoverflow.com/questions/43311943/prevent-content-from-expanding-grid-items
 */
