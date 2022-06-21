@@ -260,7 +260,14 @@ footer {
     background-repeat: no-repeat;
     background-color: #B42033;
 }
-
+#stage-three-img {
+    background-image: url("../images/podium.webp");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #B42033;
+}
 
 
 
@@ -310,6 +317,9 @@ footer {
 .contact-box {
     padding: 20px;
 }
+#stage-three-img {
+
+}
 /* Media Queries */
 
 @media only screen and (min-width: 600px) {
@@ -325,7 +335,8 @@ footer {
     #hero-outer,
     .stage-container,
     #stage-one-img,
-    #stage-two-img {
+    #stage-two-img,
+    #stage-three-img {
         height: 300px;
     }
 
@@ -378,7 +389,8 @@ footer {
     #hero-outer,
     .stage-container,
     #stage-one-img,
-    #stage-two-img {
+    #stage-two-img,
+    #stage-three-img {
         height: 450px;
     }
     .webcards p {
