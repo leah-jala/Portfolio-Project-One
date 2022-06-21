@@ -294,14 +294,21 @@ footer {
     margin: 0 auto 10px;
 }
 
-
 .prep-box {
     background:#3C3B6E;
     padding: 20px 10px;
 }
 
+.prep-box li {
+    font-size: smaller;
+}
+
 .prep-box a {
     color:#e6d09d;
+}
+/* Stage 2 - Contact page */
+.contact-box {
+    padding: 20px;
 }
 /* Media Queries */
 
