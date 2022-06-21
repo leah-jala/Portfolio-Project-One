@@ -237,7 +237,7 @@ footer {
     color:#FEFEFE;
 }
 
-/* Stage one page - Prepare */
+/* Stage pages - Top images */
 
 .stage-container {
     display: block;
@@ -252,6 +252,19 @@ footer {
     background-repeat: no-repeat;
     background-color: #B42033;
 }
+#stage-two-img {
+    background-image: url("../images/nsr-race.webp");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #B42033;
+}
+
+
+/* Stage one page - Prepare */
+
+
 .prep-art-container {
     display: grid;
     grid-template-columns: repeat(auto, minmax(250px, 1fr));;
@@ -302,7 +315,8 @@ footer {
     #hero, 
     #hero-outer,
     .stage-container,
-    #stage-one-img {
+    #stage-one-img,
+    #stage-two-img {
         height: 300px;
     }
 
@@ -351,8 +365,9 @@ footer {
     #hero, 
     #hero-outer,
     .stage-container,
-    #stage-one-img {
-        height: 400px;
+    #stage-one-img,
+    #stage-two-img {
+        height: 450px;
     }
     .webcards p {
         height: 100px;
