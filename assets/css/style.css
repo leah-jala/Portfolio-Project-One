@@ -316,9 +316,9 @@ footer {
 /* Stage 2 - Contact page */
 
 #contact-art-container {
-    margin: 0 auto;
-    max-width: 1400px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5%;
 }
 .contact-article {
     display: flex;
@@ -327,7 +327,12 @@ footer {
     background-color:#FEFEFE;
     padding: 20px;
     margin: 5px auto;
-    max-width: 600px  
+    max-width: 600px; 
+    height: 100%;
+}
+
+#contact-art-one {
+    float: left;
 }
 .contact-article p {
     padding-top: 0;
