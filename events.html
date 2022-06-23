@@ -39,6 +39,37 @@
         </nav>
     </header>
     <main>
+        <section>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Meet the Recruiters!</h2>
+                <h3></h3>
+              <p>Come to our summer event and reception set to take place during Henley Royal Regatta. Put your questions directly to recruiters.
+                and here what it's really like from current British students and recent alumni. We will also make 
+                participation available via Zoom for those who won't make it to Henley this year. <br>
+                  <h4>Event Details</h4>
+              <ul>
+                <li><strong>Date:</strong> 3 July</li>
+                <li><strong>Time:</strong>  18:00</li>
+                <li><strong>Venue:</strong> Remenham Club, Remenham Lane, Henley-on-Thames, RG9 3DB</li>
+              </ul>
+                  
+                </p>
+             
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+                
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                
+                <label for="in-person">Attending in Person</label>
+                <input type="radio" id="venue" name="attendance_preference" value="in_person" required>
+                <label for="zoom">Attending via Zoom</label>
+                <input type="radio" id="zoom" name="attendance_preference" value="zoom" required>            
+                <input class="join-button" type="submit" value="Count me in!">
+          </section> 
         <!-- Code and relted css by Valentin Garcia, https://ostraining.com/blog/coding/responsive-google-maps/ -->
         <section id="events-image">
             <div class="map-responsive">
