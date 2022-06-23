@@ -402,6 +402,11 @@ footer {
         float: left;
         padding-right: 20px;
     }
+
+    #contact-art-two img {
+        float: right;
+        padding-left: 20px;
+    }
     footer {
         margin-top: 125px;
     }
@@ -435,7 +440,10 @@ footer {
         grid-template-columns: repeat(2, minmax(250px, 1fr));;
     }
     #art-two-top {
-        width: 650px;
+        width: auto;
+    }
+    #quote {
+        padding: 30px 20px;
     }
 }
 
