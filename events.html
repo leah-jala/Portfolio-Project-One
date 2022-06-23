@@ -39,44 +39,47 @@
         </nav>
     </header>
     <main id="events-image">
-        <section>
-            <!--Used Love Running project as a model for the form-->
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <h2>Meet the Recruiters!</h2>
-                <h3></h3>
-              <p>Come to our summer event and reception set to take place during Henley Royal Regatta. Put your questions directly to recruiters.
-                and here what it's really like from current British students and recent alumni. We will also make 
-                participation available via Zoom for those who won't make it to Henley this year. <br>
-                  <h4>Event Details</h4>
-              <ul>
-                <li><strong>Date:</strong> 3 July</li>
-                <li><strong>Time:</strong>  18:00</li>
-                <li><strong>Venue:</strong> Remenham Club, Remenham Lane, Henley-on-Thames, RG9 3DB</li>
-              </ul>
-                  
-                </p>
-             
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" name="first_name" type="text" required>
-                
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" name="last_name" type="text" required>
-                
-                <label for="email">Email Address</label>
-                <input class="text-input" type="email" id="email" name="email_address" required>
-                
-                <label for="in-person">Attending in Person</label>
-                <input type="radio" id="venue" name="attendance_preference" value="in_person" required>
-                <label for="zoom">Attending via Zoom</label>
-                <input type="radio" id="zoom" name="attendance_preference" value="zoom" required>            
-                <input class="join-button" type="submit" value="Count me in!">
-          </section> 
-        <!-- Code and relted css by Valentin Garcia, https://ostraining.com/blog/coding/responsive-google-maps/ -->
-        <section>
-            <div class="map-responsive">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.176963014914!2d-0.2704827840289225!3d51.4732659796295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760e6299ed196b%3A0x848c8563e82e758d!2sTideway%20Scullers%20School!5e0!3m2!1sen!2suk!4v1655972578379!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+        <div class="events-wrapper">
+            <section class="form-container">
+                <!--Used Love Running project as a model for the form-->
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Meet the Recruiters!</h2>
+                    <h3></h3>
+                  <p>Come to our summer event and reception set to take place during Henley Royal Regatta. Put your questions directly to recruiters.
+                    and here what it's really like from current British students and recent alumni. We will also make 
+                    participation available via Zoom for those who won't make it to Henley this year. <br>
+                      <h4>Event Details</h4>
+                  <ul>
+                    <li><strong>Date:</strong> 3 July</li>
+                    <li><strong>Time:</strong>  18:00</li>
+                    <li><strong>Venue:</strong> Remenham Club, Remenham Lane, Henley-on-Thames, RG9 3DB</li>
+                  </ul>
+                      
+                    </p>
+                 
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+                    
+                    <label for="in-person">Attending in Person</label>
+                    <input type="radio" id="venue" name="attendance_preference" value="in_person" required>
+                    <label for="zoom">Attending via Zoom</label>
+                    <input type="radio" id="zoom" name="attendance_preference" value="zoom" required>            
+                    <input class="join-button" type="submit" value="Count me in!">
+              </section> 
+            <!-- Code and relted css by Valentin Garcia, https://ostraining.com/blog/coding/responsive-google-maps/ -->
+            <section class="map-container">
+                <div class="map-responsive" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.176963014914!2d-0.2704827840289225!3d51.4732659796295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760e6299ed196b%3A0x848c8563e82e758d!2sTideway%20Scullers%20School!5e0!3m2!1sen!2suk!4v1655972578379!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </div>
+
     </main>
     <footer>
         <ul class="social">

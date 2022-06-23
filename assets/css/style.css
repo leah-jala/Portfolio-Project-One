@@ -372,10 +372,25 @@ footer {
     background-image: url("../images/Hammersmith-Bridge.webp");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1000px;
 }
+.events-wrapper {
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 5px;
+}
+.form-container {
+    background:rgb(180, 32, 51, 0.7);
+    color:#FEFEFE;
+}
+.map-container {
+    align-self: center;
+    max-width: 600px;
+}
+
+/*Map rules */
 .map-responsive{
-    overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
@@ -383,8 +398,8 @@ footer {
 .map-responsive iframe{
     left:0;
     top:0;
-    height: 50%;
-    width: 25%;
+    height: 100%;
+    width: 100%;
     position:absolute;
     }
 
@@ -432,6 +447,11 @@ footer {
     footer {
         margin-top: 125px;
     }
+    .map-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
 }
 
 @media only screen and (min-width: 850px) {
@@ -467,7 +487,11 @@ footer {
     #quote {
         padding: 30px 20px;
     }
-}
+    .events-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 1%;
+    }
+    
 
 @media only screen and (min-width: 1200px) {
     #hero, 
