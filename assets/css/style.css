@@ -400,12 +400,21 @@ footer {
 
 /* Form rules */
 .form-container {
+    display: flex;
+    flex-wrap: wrap;
     background: #e495a0;
     padding: 20px;
-    display: flex;
+    border: none;
 }
-.fields li {
+
+.personal-fields li {
     padding: 5px 20px;
+}
+.text-input {
+    background:#C5C4D4;
+    padding: 0.35em 0.75em;
+    font-size: 1.1em;
+    max-height: 3em;
 }
 
 /*Map rules */
