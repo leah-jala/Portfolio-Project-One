@@ -149,7 +149,11 @@ nav li {
     padding: 20px;
     margin: 10px auto;
 }
-
+.events-intro {
+    max-width: 1200px;
+    padding: 40px;
+    margin: 0 auto;
+}
 .intro-box {
     background-color: hsl(241, 30%, 33%);
     color: #FEFEFE;
@@ -477,7 +481,7 @@ footer {
         border-width: thin;
         margin: 0;
     }
-    .intro p {
+    .intro p, .events-intro p {
         max-width: 70%;
     }
     footer {
