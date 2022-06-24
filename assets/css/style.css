@@ -398,6 +398,16 @@ footer {
     max-width: 600px;
 }
 
+/* Form rules */
+.form-container {
+    background: #e495a0;
+    padding: 20px;
+    display: flex;
+}
+.fields li {
+    padding: 5px 20px;
+}
+
 /*Map rules */
 .map-responsive{
     padding-bottom:56.25%;

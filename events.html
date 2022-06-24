@@ -51,47 +51,51 @@
         </section>
 
         <!--Used Love Running project as a model for the form-->
-        <form id="form-container" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Meet the Recruiters!</h2>
-            <h3></h3>
-            <p>Come to our summer event and reception set to take place during Henley Royal Regatta. Put your questions
-                directly to recruiters.
-                and here what it's really like from current British students and recent alumni. We will also make
-                participation available via Zoom for those who won't make it to Henley this year. <br>
+        <form class="form-container" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+
+            <section class="form-section">
                 <h4>Event Details</h4>
-                <ul>
+                <ul class="locale-fields">
                     <li><strong>Date:</strong> 3 July</li>
                     <li><strong>Time:</strong> 18:00</li>
-                    <li><strong>Venue:</strong> Remenham Club, Remenham Lane, Henley-on-Thames, RG9 3DB</li>
+                    <li><strong>Venue:</strong> 
+                        <div>
+                            Remenham Club Lane<br>Henley-on-Thames<br>RG9 3DB</li>
+                        </div> 
                 </ul>
+            </section>
 
-            </p>
-            <ul class="fields">
-                <li>
-                    <label for="fname">First Name</label>
-                    <input class="text-input" id="fname" name="first_name" type="text" required>
-                </li>
-                <li>
-                    <label for="lname">Last Name</label>
-                    <input class="text-input" id="lname" name="last_name" type="text" required>
-                </li>
-                <li>
-                    <label for="email">Email Address</label>
-                    <input class="text-input" type="email" id="email" name="email_address" required>
-                </li>
-                <li>
-                    <label for="in-person">Attending in Person</label>
-                    <input type="radio" id="venue" name="attendance_preference" value="in_person" required>
-                </li>
-                <li>
-                    <label for="zoom">Attending via Zoom</label>
-                    <input type="radio" id="zoom" name="attendance_preference" value="zoom" required>
-                </li>
-                <li>
-                    <input class="join-button" type="submit" value="Count me in!">
-                </li>
-            </ul>
-            
+            <section class="form-section">
+                <ul class="personal-fields">
+                    <li>
+                        <label for="fname">First Name</label>
+                        <input class="text-input" id="fname" name="first_name" type="text" required>
+                    </li>
+                    <li>
+                        <label for="lname">Last Name</label>
+                        <input class="text-input" id="lname" name="last_name" type="text" required>
+                    </li>
+                    <li>
+                        <label for="email">Email Address</label>
+                        <input class="text-input" type="email" id="email" name="email_address" required>
+                    </li>
+                    <li>
+                        <label for="in-person">Attending in Person</label>
+                        <input type="radio" id="venue" name="attendance_preference" value="in_person" required>
+                    </li>
+                    <li>
+                        <label for="zoom">Attending via Zoom</label>
+                        <input type="radio" id="zoom" name="attendance_preference" value="zoom" required>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <input class="join-button" type="submit" value="Count me in!">
+                    </li>
+                </ul>
+            </section>
 
             <!-- Code and relted css by Valentin Garcia, https://ostraining.com/blog/coding/responsive-google-maps/ -->
             <div class="map">
