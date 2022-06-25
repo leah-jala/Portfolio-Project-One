@@ -151,7 +151,7 @@ nav li {
 }
 .events-intro {
     max-width: 1200px;
-    padding: 40px;
+    padding: 20px;
     margin: 0 auto;
 }
 .intro-box {
@@ -409,7 +409,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     background: #e495a0;
-    padding: 20px;
+    padding: 10px;
     border: none;
     margin: 0;
     max-width: 650px;
@@ -419,7 +419,7 @@ footer {
     padding-left: 0;
 }
 .form-section {
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
 }
 
 .personal-fields li, .locale-fields li {
@@ -518,6 +518,7 @@ footer {
 
 @media only screen and (min-width: 850px) {
     
+    
     .intro-box {
         display: flex;
         flex-wrap: wrap;
@@ -553,12 +554,12 @@ footer {
         gap: 1%;
     }
     
-    @media only screen and (min-width: 951px){
+    @media only screen and (min-width: 908px){
         .intro-box h2 {
             border-right-style: solid;
-            border-bottom-style: none;
-            
+            border-bottom-style: none; 
     }
+}
 @media only screen and (min-width: 1200px) {
     #hero, 
     #hero-outer,
@@ -570,6 +571,9 @@ footer {
     }
     .webcards p {
         height: 100px;
+    }
+    .events-intro {
+        margin: 40px auto;
     }
     footer {
         margin-top: 35px;
