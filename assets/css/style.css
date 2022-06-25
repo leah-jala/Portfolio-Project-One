@@ -320,9 +320,12 @@ footer {
     background-color: #FEFEFE;
     padding: 20px;
     overflow: visible;
-    min-width: 0;
-    min-height: 0;
+    height: 100%;
     margin: 5px auto;
+}
+.prep-highlight p {
+    padding: 5px 5px 5px 20px;
+
 }
 
 #prep-art-one img,
