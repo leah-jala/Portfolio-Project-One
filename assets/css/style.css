@@ -585,7 +585,10 @@ form section {
         width: auto;
     }
 
-
+#questions img,
+#art-two-top {
+    padding: 0 20px;
+}
 
     .small-img {
         height: 200px;
