@@ -337,18 +337,15 @@ footer {
 .prep-box-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 0 20px;
-    justify-content: center;
+    max-width: 600px;
+    
 
 }
 .prep-box {
     display:block;
     background: #3C3B6E;
-    flex:2;
-    padding: 20px;
-    min-width: 280px;
-    max-width: 350px;
+    flex:1;
+    
     
 }
 
@@ -361,8 +358,8 @@ footer {
 }
 
 .small-img {
-    max-width: 350px;
-    max-height: 195px;
+    height: 200px;
+    width: 100%;
     flex:1;
 }
 
