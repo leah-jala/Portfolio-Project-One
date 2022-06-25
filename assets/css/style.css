@@ -373,12 +373,19 @@ footer {
 }
 
 /* Stage 3 - Commit */
+#commit-main {
+    background:#FEFEFE;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 /* Events page */
 
 .events-wrapper {
     display: flex;
     flex-wrap: wrap;
+    grid-template-columns: auto;
 }
 
 #events-image {
