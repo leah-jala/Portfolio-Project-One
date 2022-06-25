@@ -449,6 +449,7 @@ footer {
 /*Map rules */
 .map {
     flex: 1;
+    min-width: 320px;
 }
 .map-responsive{
     padding-bottom:56.25%;
@@ -461,6 +462,7 @@ footer {
     height: 100%;
     width: 100%;
     position:absolute;
+
     }
 
 /* Media Queries */
