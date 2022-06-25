@@ -216,6 +216,7 @@ nav li {
     box-shadow: 5px 10px #3C3B6E;
     background-color: #FEFEFE;
     text-align: center;
+    margin: 0 10px;
 }
 
 .webcard-link {
