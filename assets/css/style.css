@@ -418,8 +418,10 @@ footer {
 .form-container h4 {
     padding-left: 0;
 }
-.form-section {
+form section {
     letter-spacing: 1px;
+    padding: 20px;
+   
 }
 
 .personal-fields li, .locale-fields li {
