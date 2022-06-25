@@ -82,6 +82,7 @@ nav li {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    padding-right: 20px;
 }
 
 .active {
