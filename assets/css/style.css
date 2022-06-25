@@ -366,6 +366,7 @@ footer {
     color: #e6d09d;
 }
 
+
 .small-img {
     height: 200px;
     width: 100%;
@@ -393,6 +394,9 @@ footer {
     height: 100%;
 
 }
+.art-two-top {
+    padding: 0;
+}
 
 #questions h3,
 #art-two-top h3 {
@@ -416,7 +420,7 @@ footer {
 #contact-art-two img {
     display: block;
     object-fit: cover;
-    height: 200px;
+    height: 150px;
     min-width: 0;
     min-height: 0;
     margin: 0 auto 10px;
