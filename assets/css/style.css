@@ -403,26 +403,35 @@ footer {
 .form-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     background: #e495a0;
     padding: 20px;
     border: none;
     margin: 0;
+    max-width: 650px;
 }
-.form-container h3 {
+.form-container h3,
+.form-container h4 {
     padding-left: 0;
 }
 .form-section {
-    padding-left: 20px;
+    letter-spacing: 1.1px;
 }
 
-.personal-fields li {
+.personal-fields li, .locale-fields li {
+    display: flex;
+    flex-wrap: wrap;
     padding: 5px 0;
+    align-content: center;
+}
+.label-space {
+    flex: 1 0 100px;
 }
 .text-input {
     background:#C5C4D4;
     padding: 0.35em 0.75em;
     font-size: 1.1em;
-    max-height: 3em;
+    flex: 1 0 220px;
 }
 .join-button {
     padding: 10px 30px;
