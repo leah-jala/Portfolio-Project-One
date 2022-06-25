@@ -389,10 +389,7 @@ footer {
     margin: 0 auto;
     gap: 5px;
 }
-.form-container {
-    background:rgb(180, 32, 51, 0.7);
-    color:#FEFEFE;
-}
+
 .map-container {
     align-self: center;
     max-width: 600px;
@@ -400,17 +397,26 @@ footer {
 
 /* Form rules */
 .form-container {
+    background:rgb(180, 32, 51, 0.7);
+    color:#FEFEFE;
+}
+.form-container {
     display: flex;
     flex-wrap: wrap;
     background: #e495a0;
     padding: 20px;
     border: none;
     margin: 0;
-
+}
+.form-container h3 {
+    padding-left: 0;
+}
+.form-section {
+    padding-left: 20px;
 }
 
 .personal-fields li {
-    padding: 5px 20px;
+    padding: 5px 0;
 }
 .text-input {
     background:#C5C4D4;
