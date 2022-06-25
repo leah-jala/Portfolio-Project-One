@@ -449,7 +449,6 @@ footer {
 /*Map rules */
 .map {
     flex: 1;
-    min-width: 500px;
 }
 .map-responsive{
     padding-bottom:56.25%;
@@ -528,8 +527,7 @@ footer {
     .intro-box h2 {
         padding: 20px;
         text-align: center;
-        border-right-style: solid;
-        border-bottom-style: none;
+        
         border-width: thin;
         margin: 0;
     }
@@ -553,7 +551,12 @@ footer {
         gap: 1%;
     }
     
-
+    @media only screen and (min-width: 951px){
+        .intro-box h2 {
+            border-right-style: solid;
+            border-bottom-style: none;
+            
+    }
 @media only screen and (min-width: 1200px) {
     #hero, 
     #hero-outer,
