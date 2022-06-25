@@ -216,7 +216,6 @@ nav li {
     box-shadow: 5px 10px #3C3B6E;
     background-color: #FEFEFE;
     text-align: center;
-    margin: 0 10px;
 }
 
 .webcard-link {
@@ -565,6 +564,10 @@ form section {
     #stage-two-img,
     #stage-three-img {
         height: 300px;
+    }
+
+    .webcards li {
+        margin: 0 10px;
     }
 
     .webcards p {
