@@ -377,37 +377,34 @@ footer {
 /* Events page */
 
 .events-wrapper {
-    display: grid;
-    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #events-image {
     background-image: url("../images/Hammersmith-Bridge.webp");
     background-size: cover;
     background-position: center;
-    height: 200%;
+    height: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
 .events-wrapper {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1400px;
     margin: 0 auto;
     gap: 5px;
+    min-height: 100vh;
 }
 
-.map-container {
-    align-self: center;
-    max-width: 600px;
-}
+
 
 /* Form rules */
 .form-container {
-    background:rgb(180, 32, 51, 0.7);
-    color:#FEFEFE;
     flex: 1;
-}
-.form-container {
+    color:#FEFEFE;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -452,6 +449,7 @@ footer {
 /*Map rules */
 .map {
     flex: 1;
+    min-width: 500px;
 }
 .map-responsive{
     padding-bottom:56.25%;
