@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300;400&display=swap');
 
 /* Global properties */
-    /* Font-Size and Letter Spacing */
+/* Font-Size and Letter Spacing */
 /* Header and Nav bar */
 /* Dropdown Button Rules */
 /* Hero and section images */
@@ -23,12 +23,16 @@ body {
     max-width: 1600px;
 }
 
-h3, h4, p {
+h3,
+h4,
+p {
     padding: 10px 20px;
 }
+
 a {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
@@ -36,17 +40,20 @@ ul {
 li {
     padding: 0;
 }
+
 /* Font-Size and Letter Spacing */
 
 h1 {
     font-size: 150%;
 }
+
 /* Header and Nav bar */
 
 header {
-    display:block;
+    display: block;
     background-color: #b42033;
 }
+
 header ul {
     list-style: none;
 }
@@ -59,6 +66,7 @@ header a {
 #logo {
     padding: 20px;
 }
+
 nav {
     display: grid;
     grid-template-columns: minmax(auto, 1400px);
@@ -68,6 +76,7 @@ nav {
 nav li {
     padding: 10px;
 }
+
 #menu {
     display: flex;
     align-items: center;
@@ -86,7 +95,7 @@ nav li {
     color: whitesmoke;
     font-family: inherit;
     font-size: inherit;
-    padding:0;
+    padding: 0;
 }
 
 .dropdown-content {
@@ -94,33 +103,39 @@ nav li {
     flex-wrap: wrap;
     font-size: 90%;
     text-align: left;
-    height:fit-content;
+    height: fit-content;
     max-width: 180px;
     position: absolute;
     z-index: 1;
-    overflow:hidden;
-    background:#B42033;
+    overflow: hidden;
+    background: #B42033;
     padding: 5px 20px 10px;
-    margin-top:10px;
+    margin-top: 10px;
     margin-left: -10px;
 }
 
 .dropdown-content a {
     padding-top: 5px;
 }
+
 .dropdown:hover .dropbtn {
     background: #B42033;
 }
+
 .dropdown:hover .dropdown-content {
     display: flex;
     background: #B42033;
 }
+
 #menu li:hover {
     background-color: #B42033;
 }
-.dropdown:hover, .dropbtn:hover {
+
+.dropdown:hover,
+.dropbtn:hover {
     background: #B42033;
 }
+
 .dropdown-content a:hover {
     color: #E2CA94;
 }
@@ -129,7 +144,7 @@ nav li {
 
 
 #hero-outer {
-    display:block;
+    display: block;
     height: 200px;
     width: 100%;
 }
@@ -139,7 +154,7 @@ nav li {
     background-position: center;
     height: 200px;
     width: 100%;
-    background-size: cover; 
+    background-size: cover;
 }
 
 /* Introduction Section */
@@ -149,11 +164,13 @@ nav li {
     padding: 20px;
     margin: 10px auto;
 }
+
 .events-intro {
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
 }
+
 .intro-box {
     background-color: hsl(241, 30%, 33%);
     color: #FEFEFE;
@@ -166,7 +183,7 @@ nav li {
     border-bottom-style: solid;
     border-width: thin;
     width: fit-content;
-    margin:auto;
+    margin: auto;
 }
 
 /* Main homepage content - 3 sections/boxes with stages */
@@ -176,33 +193,35 @@ nav li {
     grid-gap: 2.5%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 0 auto;
-    max-width: 1400px;  
+    max-width: 1400px;
 }
 
 .webcard-img {
     max-height: auto;
-    width: 100%;   
+    width: 100%;
 }
 
 .webcards h3 {
     padding: 20x 20px 10px;
-    color:#3C3B6E;
+    color: #3C3B6E;
 }
 
 .webcards p {
     padding: 10px 0 20px 20px;
-    color:#3C3B6E;
+    color: #3C3B6E;
 }
+
 .webcards li {
-    box-shadow: 5px 10px #3C3B6E;   
+    box-shadow: 5px 10px #3C3B6E;
     background-color: #FEFEFE;
     text-align: center;
 }
-.webcard-link{
+
+.webcard-link {
     display: block;
     text-decoration: none;
     background-color: #3C3B6E;
-    color:#FEFEFE;
+    color: #FEFEFE;
     padding: 10px;
     width: 100px;
     margin: 0 auto 20px;
@@ -226,6 +245,7 @@ footer {
     padding: 10px;
     margin-top: 100px;
 }
+
 #events-footer {
     margin: 0;
 }
@@ -241,8 +261,9 @@ footer {
 .social li {
     font-size: 1.5rem;
 }
+
 .social a {
-    color:#FEFEFE;
+    color: #FEFEFE;
 }
 
 /* Stage pages - Top images */
@@ -252,6 +273,7 @@ footer {
     height: 200px;
     width: 100%;
 }
+
 #stage-one-img {
     background-image: url("../images/pontoon.webp");
     height: 200px;
@@ -260,6 +282,7 @@ footer {
     background-repeat: no-repeat;
     background-color: #B42033;
 }
+
 #stage-two-img {
     background-image: url("../images/nsr-race.webp");
     height: 200px;
@@ -268,6 +291,7 @@ footer {
     background-repeat: no-repeat;
     background-color: #B42033;
 }
+
 #stage-three-img {
     background-image: url("../images/podium.webp");
     height: 200px;
@@ -284,16 +308,18 @@ footer {
 
 .prep-art-container {
     display: grid;
-    grid-template-columns: repeat(auto, minmax(250px, 1fr));;
+    grid-template-columns: repeat(auto, minmax(250px, 1fr));
+    ;
     margin: 10px auto;
     gap: .5%;
-    
+
 }
+
 .prep-article {
-    color:#3C3B6E;
-    background-color:#FEFEFE;
+    color: #3C3B6E;
+    background-color: #FEFEFE;
     padding: 20px;
-    overflow:visible;
+    overflow: visible;
     min-width: 0;
     min-height: 0;
     margin: 5px auto;
@@ -310,7 +336,7 @@ footer {
 }
 
 .prep-box {
-    background:#3C3B6E;
+    background: #3C3B6E;
     padding: 20px 10px;
 }
 
@@ -319,8 +345,9 @@ footer {
 }
 
 .prep-box a {
-    color:#e6d09d;
+    color: #e6d09d;
 }
+
 /* Stage 2 - Contact page */
 
 #contact-art-container {
@@ -329,27 +356,31 @@ footer {
     gap: 20px;
     margin: 0 auto;
     max-width: 1400px;
-    
+
 }
+
 .contact-article {
     display: flex;
     flex-wrap: wrap;
-    color:#3C3B6E;
-    background-color:#FEFEFE;
+    color: #3C3B6E;
+    background-color: #FEFEFE;
     padding: 20px;
     margin: 5px auto;
     max-width: 650px;
     height: 100%;
-    
+
 }
+
 #questions h3,
 #art-two-top h3 {
     text-align: center;
 }
+
 .contact-article p {
     padding-top: 0;
     height: 100%;
 }
+
 #questions {
     height: 100%;
 }
@@ -374,11 +405,21 @@ footer {
 
 /* Stage 3 - Commit */
 #commit-main {
-    background:#FEFEFE;
+    background: #FEFEFE;
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.commit-img {
+    max-height: 300px;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+}
 
 /* Events page */
 
@@ -396,6 +437,7 @@ footer {
     margin: 0 auto;
     overflow: hidden;
 }
+
 .events-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -410,7 +452,7 @@ footer {
 /* Form rules */
 .form-container {
     flex: 1;
-    color:#FEFEFE;
+    color: #FEFEFE;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -421,36 +463,42 @@ footer {
     margin: 0;
     max-width: 1400px;
 }
+
 .form-container h3,
 .form-container h4 {
     padding-left: 0;
 }
+
 form section {
     letter-spacing: 1px;
     padding: 20px;
-   
+
 }
 
-.personal-fields li, .locale-fields li {
+.personal-fields li,
+.locale-fields li {
     display: flex;
     flex-wrap: wrap;
     padding: 5px 0;
     align-content: center;
 }
+
 .label-space {
     flex: 1 0 100px;
 }
+
 .text-input {
-    background:#C5C4D4;
+    background: #C5C4D4;
     padding: 0.35em 0.75em;
     font-size: 1.1em;
     flex: 1 0 220px;
 }
+
 .join-button {
     padding: 10px 30px;
     border-radius: 20px;
-    background:hsl(241, 30%, 33%);
-    color:#f5f5f5;
+    background: hsl(241, 30%, 33%);
+    color: #f5f5f5;
     cursor: pointer;
     font-size: 1em;
 }
@@ -460,32 +508,37 @@ form section {
     flex: 1;
     min-width: 320px;
 }
-.map-responsive{
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    }
-.map-responsive iframe{
-    left:0;
-    top:0;
+
+.map-responsive {
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
-    position:absolute;
+    position: absolute;
 
-    }
+}
 
 /* Media Queries */
 
 @media only screen and (min-width: 600px) {
-    #menu, h1 {
+
+    #menu,
+    h1 {
         font-size: 200%;
     }
+
     #menu {
         justify-content: flex-end;
         font-size: 110%;
     }
 
-    #hero, 
+    #hero,
     #hero-outer,
     .stage-container,
     #stage-one-img,
@@ -497,11 +550,13 @@ form section {
     .webcards p {
         height: 125px;
     }
+
     #prep-art-one img,
     #prep-art-two img {
         height: 300px;
-        width:auto;        
+        width: auto;
     }
+
     .prep-box ul {
         padding-left: 50px;
     }
@@ -515,82 +570,102 @@ form section {
         float: right;
         padding-left: 20px;
     }
+
     footer {
         margin-top: 125px;
     }
+
     .map-container {
         width: 80%;
         margin: 0 auto;
     }
-    
+
 }
 
 @media only screen and (min-width: 850px) {
-    
-    
+
+
     .intro-box {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items:center;
-        align-content: center; 
+        align-items: center;
+        align-content: center;
     }
 
     .intro-box h2 {
         padding: 20px;
         text-align: center;
-        
+
         border-width: thin;
         margin: 0;
     }
-    .intro p, .events-intro p {
+
+    .intro p,
+    .events-intro p {
         max-width: 70%;
     }
+
     footer {
         margin-top: 75px;
     }
+
     .prep-art-container {
-        grid-template-columns: repeat(2, minmax(250px, 1fr));;
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+        ;
     }
+
     #art-two-top {
         width: auto;
     }
+
     #quote {
         padding: 30px 20px;
     }
+
     .events-wrapper {
         grid-template-columns: 1fr 1fr;
         gap: 1%;
     }
-    
-    @media only screen and (min-width: 908px){
+
+    #commit-main {
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+
+    }
+
+    @media only screen and (min-width: 908px) {
         .intro-box h2 {
             border-right-style: solid;
-            border-bottom-style: none; 
+            border-bottom-style: none;
+        }
     }
-}
-@media only screen and (min-width: 1200px) {
-    #hero, 
-    #hero-outer,
-    .stage-container,
-    #stage-one-img,
-    #stage-two-img,
-    #stage-three-img {
-        height: 450px;
+
+    @media only screen and (min-width: 1200px) {
+
+        #hero,
+        #hero-outer,
+        .stage-container,
+        #stage-one-img,
+        #stage-two-img,
+        #stage-three-img {
+            height: 450px;
+        }
+
+        .webcards p {
+            height: 100px;
+        }
+
+        .events-intro {
+            margin: 40px auto;
+        }
+
+        footer {
+            margin-top: 35px;
+        }
     }
-    .webcards p {
-        height: 100px;
-    }
-    .events-intro {
-        margin: 40px auto;
-    }
-    footer {
-        margin-top: 35px;
-    }
-}
 
 
-/* Credits & notes
+    /* Credits & notes
 Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
 Dropdown button from W3 Schools - used CodePen to get it right
 
