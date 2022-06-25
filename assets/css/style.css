@@ -405,6 +405,8 @@ footer {
     background: #e495a0;
     padding: 20px;
     border: none;
+    margin: 0;
+
 }
 
 .personal-fields li {
@@ -415,6 +417,9 @@ footer {
     padding: 0.35em 0.75em;
     font-size: 1.1em;
     max-height: 3em;
+}
+.form-submit {
+    flex:;
 }
 
 /*Map rules */
