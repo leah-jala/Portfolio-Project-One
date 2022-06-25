@@ -334,10 +334,22 @@ footer {
     min-height: 0;
     margin: 0 auto 10px;
 }
+.prep-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
 
+}
 .prep-box {
+    display:block;
     background: #3C3B6E;
-    padding: 20px 10px;
+    flex:2;
+    padding: 20px;
+    min-width: 280px;
+    max-width: 350px;
+    
 }
 
 .prep-box li {
@@ -346,6 +358,12 @@ footer {
 
 .prep-box a {
     color: #e6d09d;
+}
+
+.small-img {
+    max-width: 350px;
+    max-height: 195px;
+    flex:1;
 }
 
 /* Stage 2 - Contact page */
@@ -457,7 +475,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: rgba(180, 32, 51, 0.6);
+    background: rgba(180, 32, 51, 0.7);
     padding: 20px;
     border: none;
     margin: 0;
