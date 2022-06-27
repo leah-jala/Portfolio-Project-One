@@ -58,7 +58,7 @@ The site is predominantly relevant to women, as the scholarship and grant opport
 ![Snip of contact page](/docs/readme_images/contact_snip.jpg.png)
 
 ### Commit page
-- This page summarizes the things rowers can expect once they commit to a team, includding applications, fees and grants.
+- This page summarizes the things rowers can expect once they commit to a team, including applications, fees and grants.
 - Links to further information are provided.
 - Favicons are used to add interest and for quick visual scanning. 
 
@@ -89,6 +89,9 @@ FIX THE RADIO BUTTONS AND ADD AN IMAGE.
 ### Responsiveness
 ### Accessibility
 ### Lighthouse
+I used light house to generate reports
+
+
 ### Validator testing
 ### Unfixed bugs
 
