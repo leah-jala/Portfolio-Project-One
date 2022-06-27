@@ -82,6 +82,9 @@ FIX THE RADIO BUTTONS AND ADD AN IMAGE.
 
 
 ## Technologies
+- Compress images: https://tinypng.com/
+- Convert to webp: https://image.online-convert.com/convert-to-webp
+https://www.freeconvert.com/download
 
 ## Testing
 
@@ -99,4 +102,6 @@ I used light house to generate reports
 ## Deployment
 
 ## Credits
+
+Aria labels http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 
