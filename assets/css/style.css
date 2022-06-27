@@ -528,7 +528,7 @@ form section {
 }
 
 input[type="radio"] {
-    align-items: center;
+    margin: 10px 0 0 10px;
 }
 
 .join-button {
@@ -539,6 +539,11 @@ input[type="radio"] {
     cursor: pointer;
     font-size: 1em;
     margin: 20px;
+}
+.join-button:hover {
+    background: #C39D16;
+    color:#3C3B6E;
+    font-size: 1.2em;
 }
 
 /*Map rules */
