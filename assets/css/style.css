@@ -198,12 +198,12 @@ nav li {
 }
 
 .webcard-img {
-    max-height: auto;
+    height: auto;
     width: 100%;
 }
 
 .webcards h3 {
-    padding: 20x 20px 10px;
+    padding: 20px 20px 10px;
     color: #3C3B6E;
 }
 
@@ -309,7 +309,7 @@ footer {
 
 .prep-art-container {
     display: grid;
-    grid-template-columns: repeat(auto, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 10px auto;
     gap: .5%;
 
@@ -349,7 +349,7 @@ footer {
 .prep-box,
 .small-img {
     min-width: 250px;
-    background-image: cover;
+    background: cover;
     background-position: center;
 }
 
@@ -498,7 +498,7 @@ footer {
 .form-container h3,
 .form-container h4 {
     padding-left: 0;
-    letter-spacing: 1.1;
+    letter-spacing: 1.1em;
 }
 .form-container h3 {
     font-size: 2em;
