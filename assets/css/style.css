@@ -356,6 +356,7 @@ footer {
     display: block;
     background: #3C3B6E;
     flex: 1;
+    padding: 10px 20px;
 }
 
 .prep-box li {
