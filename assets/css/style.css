@@ -312,6 +312,7 @@ footer {
     grid-template-columns: repeat(auto, minmax(250px, 1fr));
     margin: 10px auto;
     gap: .5%;
+    width: 100%;
 
 }
 
@@ -322,6 +323,10 @@ footer {
     overflow: visible;
     height: 100%;
     margin: 5px auto;
+}
+
+.prep-article .prep-box-container {
+    justify-content: center;
 }
 
 .prep-highlight p {
@@ -342,9 +347,7 @@ footer {
 .prep-box-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
-
-
+    justify-content: center;
 }
 
 .prep-box,
