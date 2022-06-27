@@ -487,12 +487,12 @@ footer {
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(180, 32, 51, 0.7);
     padding: 20px;
     border: none;
     margin: 0 auto;
-    max-width: 650px;
+    max-width: 400px;
 }
 
 .form-container h3,
