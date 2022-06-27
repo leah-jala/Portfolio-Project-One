@@ -349,7 +349,7 @@ footer {
 .prep-box,
 .small-img {
     min-width: 250px;
-    background: cover;
+    background-size: cover;
     background-position: center;
 }
 
@@ -383,7 +383,7 @@ footer {
     gap: 20px;
     margin: 0 auto;
     max-width: 1400px;
-    
+
 
 }
 
@@ -397,6 +397,7 @@ footer {
     height: 100%;
 
 }
+
 .art-two-top {
     padding: 0;
 }
@@ -499,9 +500,11 @@ footer {
 .form-container h4 {
     padding-left: 0;
 }
+
 .form-container h3 {
     font-size: 2em;
 }
+
 .form-container h4 {
     font-size: 1.5em;
 }
@@ -543,9 +546,10 @@ input[type="radio"] {
     font-size: 1em;
     margin: 20px;
 }
+
 .join-button:hover {
     background: #C39D16;
-    color:#3C3B6E;
+    color: #3C3B6E;
     font-size: 1.2em;
 }
 
@@ -608,10 +612,10 @@ input[type="radio"] {
         width: auto;
     }
 
-#questions img,
-#art-two-top {
-    padding: 0 20px;
-}
+    #questions img,
+    #art-two-top {
+        padding: 0 20px;
+    }
 
     .small-img {
         height: 200px;
@@ -682,7 +686,7 @@ input[type="radio"] {
         height: 250px;
         max-width: 400px;
         flex: 1;
-            }
+    }
 
 
 
@@ -715,8 +719,8 @@ input[type="radio"] {
             border-bottom-style: none;
         }
     }
-   
-    
+
+
 
     @media only screen and (min-width: 1200px) {
 
@@ -740,19 +744,7 @@ input[type="radio"] {
         footer {
             margin-top: 35px;
         }
+        .form-container {
+            max-width: 850px;
+        }
     }
-    .form-container {
-        max-width: 850px;
-    }
-
-    
-
-
-    /* Credits & notes
-Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
-Dropdown button from W3 Schools - used CodePen to get it right
-
-Prevent grid from overflowing: https://stackoverflow.com/questions/43311943/prevent-content-from-expanding-grid-items
-
-How to use font awesome icons as bullet points. https://hollypryce.com/font-awesome-bullet-points/
-*/
