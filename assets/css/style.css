@@ -312,7 +312,6 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: 10px auto;
     gap: .5%;
-
 }
 
 .prep-article {
@@ -712,6 +711,7 @@ input[type="radio"] {
         grid-template-columns: repeat(3, minmax(280px, 1fr));
 
     }
+}
 
     @media only screen and (min-width: 908px) {
         .intro-box h2 {
