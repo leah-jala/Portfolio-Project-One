@@ -86,13 +86,44 @@ FIX THE RADIO BUTTONS AND ADD AN IMAGE.
 - Convert to webp: https://image.online-convert.com/convert-to-webp
 https://www.freeconvert.com/download
 
-## Testing
+## Website Testing
 
-### Site links and form
+#### Navigation bar
+##### Logo
+- Expected: Clicking on the logo from any page brings you to the homepage.
+    - Result: True
+##### Navigation Menu
+- Expected: Clicking on any link in the navigation menu brings you to the correct page.
+    - Result: true
+- Expected: A favicon star appears at the correct place in the navigation menu on all pages, and in the dropdown menu.
+    - Result: True
+
+
+
+
+#### Webcard links on homepage
+- Expected: Webcard buttons on homepage turn red when you hover over them. 
+    - Result: True
+- Expected: Webcard links bring you to the correct page.
+    - Result: True
+
+#### Links to other pages
+
+#### Form
+
+#### Footer
+- Footer links bring you to the respective sites.
+    - Result: True. The envelope opens the email client. All social media links work. 
+
+
+
 ### Responsiveness
-### Accessibility
 ### Lighthouse
-I used light house to generate reports
+I used Lighthouse to generate reports to audit performance, accessibility, best practice and SEO for mobile and desktops. The first reports I had were low on performance (under 70%) because my image sizes were far too large. I also had to do some minor work to provide the equivalent of the "alt text" on background images.
+- Desktop results
+![Lighthouse report for desktop](/docs/readme_images/lighthouse_desktop.JPG)
+- Mobile results
+![Lighthouse report for mobiles](/docs/readme_images/lighthouse_mobile.JPG)
 
 
 ### Validator testing
