@@ -55,14 +55,14 @@ The site is predominantly relevant to women, as the scholarship and grant opport
 ### Contact page
 - This page gets rowers to think about the sort of questions they should ask to coaches to find the right fit. There is also a box for communicating to American coaches who expect much less "reserved" behaviour, when it comes to showing excitement and enthusiasm.
 
-![Snip of contact page](/docs/readme_images/contact_snip.jpg.png)
+![Snip of contact page](/docs/readme_images/commit_snip.jpg)
 
 ### Commit page
 - This page summarizes the things rowers can expect once they commit to a team, including applications, fees and grants.
 - Links to further information are provided.
 - Favicons are used to add interest and for quick visual scanning. 
 
-![Snip of commit page](/docs/readme_images/commit_snip.png)
+![Snip of commit page](/docs/readme_images/commit_snip.jpg)
 
 ### Events page
 - This is for the present a fictional page, however if it were to take place, Henley Royal Regatta would be a great place for it as a lot of elite junior rowers would be present. 
@@ -118,6 +118,8 @@ https://www.freeconvert.com/download
 
 
 ### Responsiveness
+
+![Snip from Am I Responsive](/docs/readme_images/responsive.jpg)
 ### Lighthouse
 I used Lighthouse to generate reports to audit performance, accessibility, best practice and SEO for mobile and desktops. The first reports I had were low on performance (under 70%) because my image sizes were far too large. I also had to do some minor work to provide the equivalent of the "alt text" on background images.
 - Desktop results
@@ -127,6 +129,11 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 
 
 ### Validator testing
+
+- HTML Validator
+![HTML Validator snip](/docs/readme_images/html-validator.JPG)
+- CSS Validator
+![W3C CSS validation service](/docs/readme_images/css-validator.JPG)
 ### Unfixed bugs
 
 
@@ -141,10 +148,9 @@ Aria labels http://www.davidmacd.com/blog/alternate-text-for-css-background-imag
 
 
     /* Credits & notes
-Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
+
 Dropdown button from W3 Schools - used CodePen to get it right
 
 Prevent grid from overflowing: https://stackoverflow.com/questions/43311943/prevent-content-from-expanding-grid-items
 
-How to use font awesome icons as bullet points. https://hollypryce.com/font-awesome-bullet-points/
 */
