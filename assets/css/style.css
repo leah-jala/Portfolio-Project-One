@@ -246,6 +246,7 @@ footer {
     padding: 10px;
     margin-top: 100px;
 }
+
 #events-footer {
     margin-top: 0;
 }
@@ -470,7 +471,7 @@ footer {
 }
 
 #credit {
-    color:#3C3B6E;
+    color: #3C3B6E;
     padding: 20px;
 }
 
@@ -548,8 +549,9 @@ input[type="radio"] {
     color: #3C3B6E;
     font-size: 1.2em;
 }
+
 .center {
-text-align: center;
+    text-align: center;
 }
 
 /*Map rules */
@@ -713,38 +715,39 @@ text-align: center;
     }
 }
 
-    @media only screen and (min-width: 908px) {
-        .intro-box h2 {
-            border-right-style: solid;
-            border-bottom-style: none;
-        }
+@media only screen and (min-width: 908px) {
+    .intro-box h2 {
+        border-right-style: solid;
+        border-bottom-style: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+    #hero,
+    #hero-outer,
+    .stage-container,
+    #stage-one-img,
+    #stage-two-img,
+    #stage-three-img {
+        height: 450px;
     }
 
-
-
-    @media only screen and (min-width: 1200px) {
-
-        #hero,
-        #hero-outer,
-        .stage-container,
-        #stage-one-img,
-        #stage-two-img,
-        #stage-three-img {
-            height: 450px;
-        }
-
-        .webcards p {
-            height: 100px;
-        }
-
-        .events-intro {
-            margin: 40px auto;
-        }
-
-        footer {
-            margin-top: 35px;
-        }
-        .form-container {
-            max-width: 850px;
-        }
+    .webcards p {
+        height: 100px;
     }
+
+    .events-intro {
+        margin: 40px auto;
+    }
+
+    footer {
+        margin-top: 35px;
+    }
+
+    .form-container {
+        max-width: 850px;
+    }
+}
