@@ -325,7 +325,6 @@ footer {
 
 .prep-highlight p {
     padding: 5px 5px 5px 20px;
-
 }
 
 #prep-art-one img,
@@ -467,15 +466,6 @@ footer {
     height: 100%;
     margin: 0 auto;
     overflow: hidden;
-}
-
-.events-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1400px;
-    margin: 0 auto;
-    gap: 5px;
-    min-height: 100vh;
 }
 
 
