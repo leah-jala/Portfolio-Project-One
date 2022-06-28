@@ -136,3 +136,15 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 
 Aria labels http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html
 
+
+    
+
+
+    /* Credits & notes
+Letter spacing for roboto - https://www.webdesignerdepot.com/2020/07/the-designers-guide-to-letter-spacing/
+Dropdown button from W3 Schools - used CodePen to get it right
+
+Prevent grid from overflowing: https://stackoverflow.com/questions/43311943/prevent-content-from-expanding-grid-items
+
+How to use font awesome icons as bullet points. https://hollypryce.com/font-awesome-bullet-points/
+*/
