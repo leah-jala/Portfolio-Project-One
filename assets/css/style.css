@@ -390,9 +390,9 @@ footer {
     flex-wrap: wrap;
     color: #3C3B6E;
     background-color: #FEFEFE;
-    margin: 5px auto;
     max-width: 650px;
     height: 100%;
+    padding: 20px;
 
 }
 
