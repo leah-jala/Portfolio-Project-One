@@ -342,7 +342,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
-    justify-content: center;
+    justify-self: center;
 }
 
 .prep-box,
