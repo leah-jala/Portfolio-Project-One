@@ -319,7 +319,7 @@ footer {
 
 
 /* Prepare Page */
-
+/* Grid container for all 4 boxes */
 .prep-art-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(300px, 600px));
@@ -327,6 +327,7 @@ footer {
     gap: .5%;
 }
 
+/* Upper boxes - main articles */
 .prep-article {
     color: #3C3B6E;
     background-color: #FEFEFE;
@@ -364,6 +365,12 @@ footer {
     background-position: center;
 }
 
+.small-img {
+    height: 200px;
+    width: 100%;
+    flex: 1;
+}
+
 .prep-box {
     display: block;
     background: #3C3B6E;
@@ -380,11 +387,6 @@ footer {
 }
 
 
-.small-img {
-    height: 200px;
-    width: 100%;
-    flex: 1;
-}
 
 /* Contact page */
 
