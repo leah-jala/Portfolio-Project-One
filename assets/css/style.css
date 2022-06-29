@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300;400&display=swap');
 
-/* Global properties */
-/* Font-Size and Letter Spacing */
-/* Header and Nav bar */
-/* Dropdown Button Rules */
-/* Hero and section images */
+/* Table of contents */
+    /* Global properties */
+    /* Font-Size and Letter Spacing */
+    /* Header, Logo and Nav bar */
+        /* Dropdown Button Rules */
+        /* Hero and section images */
+    /* Introduction Box for all pages*/
+    /* Homepage - 3 boxes/webcards with stages */
+    /* Footer */
+    /* Images - timeline/stage pages */
+    /* Prepare Page */
+    /* Contact page */
+    /* Commit page */
+    /* Events page */
+    /* Form rules */
+    /* Map rules */
+    /* Media Queries */
 
 
 /* Global properties */
@@ -41,13 +53,13 @@ li {
     padding: 0;
 }
 
-/* Font-Size and Letter Spacing */
+/* Font-Size */
 
 h1 {
     font-size: 150%;
 }
 
-/* Header and Nav bar */
+/* Header, Logo and Nav bar */
 
 header {
     display: block;
@@ -146,7 +158,6 @@ nav li {
 
 /* Hero and section images */
 
-
 #hero-outer {
     display: block;
     height: 200px;
@@ -161,7 +172,7 @@ nav li {
     background-size: cover;
 }
 
-/* Introduction Section */
+/* Introduction Box for all pages*/
 
 .intro {
     max-width: 1200px;
@@ -190,7 +201,7 @@ nav li {
     margin: auto;
 }
 
-/* Main homepage content - 3 sections/boxes with stages */
+/* Homepage - 3 boxes/webcards with stages */
 
 .webcards {
     display: grid;
@@ -271,7 +282,7 @@ footer {
     color: #FEFEFE;
 }
 
-/* Stage pages - Top images */
+/* Images - timeline/stage pages */
 
 .stage-container {
     display: block;
@@ -307,9 +318,7 @@ footer {
 }
 
 
-
-/* Stage one page - Prepare */
-
+/* Prepare Page */
 
 .prep-art-container {
     display: grid;
@@ -377,7 +386,7 @@ footer {
     flex: 1;
 }
 
-/* Stage 2 - Contact page */
+/* Contact page */
 
 #contact-art-container {
     display: flex;
@@ -434,7 +443,7 @@ footer {
     margin: 0 auto 20px;
 }
 
-/* Stage 3 - Commit */
+/* Commit Page */
 #commit-main {
     background: #FEFEFE;
     max-width: 1400px;
