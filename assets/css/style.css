@@ -322,8 +322,8 @@ footer {
 
 .prep-art-container {
     display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    margin: 10px auto;
+    grid-template-columns: repeat(1, minmax(300px, 600px));
+    justify-content: center;
     gap: .5%;
 }
 
