@@ -66,6 +66,9 @@ header a {
 #logo {
     padding: 20px;
 }
+#logo:hover {
+    color:#3C3B6E;
+}
 
 nav {
     display: grid;
