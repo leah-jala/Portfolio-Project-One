@@ -1,6 +1,6 @@
 # Go Row USA!
 ## Purpose
-While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, it was also built with a view to making it a live site to replace a Wix site I made last year in the near future. The related event and email address is fictional, but in the future I plan to hold such events. 
+While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, it was also built with a view to making it a live site to replace a Wix site I made last year in the near future. The related event and email address is fictional, but in the future I plan to hold such events and provide genuine contact information. 
 
 [Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is  designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the recruitment process in three stages, including preparation, communication (with coaches) and the further application process once commited to a team. 
 
@@ -30,13 +30,6 @@ The ultimate goal of this site is to give junior rowers the confidence to pursue
 10. The site's theme should match the content of the website and be fun and exciting to look at. 
 
 ## Feature response to visitor goals
-
-### Conceptual presentation
-Rowers will find the prepare, communication, commit headers familiar as it relates to their training regimes highly. Everyone knows solid training is key to race success - prepare! 
-
-Communication is essential in during a race, and we have a saying that is to "row your own race". It means you should stick to your plan/goals, inspite of what is happening around you. This will help the user see that once they set their goals they need to stick to them. A university team may sound great, but if the institution doesn't meet their academic and/or career goals, it is not an overall good match. This sections helps rowers with the right questions to ask and how to present themselves. 
-
-The last stage, "Commit," lets rowers know what to expect once they commit to a team. When we row in a crew, it is important to be fully commited to get results. There might be a lot of obstacles along the way. Here it is in the form of academic and financial planning, among other things. 
 
 ### Logo and page title (Goals 2, 3)
 A user can click on the site logo and page title on any page to return to the homepage. This will be clear to the user, because hover properties change the cursor to a hand from a point, and the text, when hovered over, turns blue. From the homepage, users can once again see the site summary for each page, and then use the page links to go directly to the page they need. 
@@ -69,8 +62,6 @@ The homepage provides and overall introduction to the site and provides links to
 
 ![Homepage snip](/docs/readme_images/Homepage_snip.jpg)
 
-
-
 ### Footer (Goals 5 and 9)
 - The footer contains links to social media sites and an email address, presented with icons. These icons are so familiar, that I didn't think it was necessary to add any additional text. To me, it looked cleaner without that. 
 - This is for the moment a fictional site, so the links on the project site only lead to the main social media websites. In future, the social media links will provide news and information about US university programs, student experiences and events. 
@@ -85,14 +76,18 @@ The homepage provides and overall introduction to the site and provides links to
     - Articles - The star is further used in place of a normal bullet point to be a bit more fun, and stick to the American theme.  
     - Commit page - A variety of icons are used to match the topic content, to make it visually more interesting. I think that this would also help a returning user to go back to the correct section again. 
 
-#### Color scheme
+#### Color scheme (Goal 10)
 - The color scheme is based on the American flag colors. I've used this with the hope of enhancing the user experience "fun factor." See credits below. The intention is to make it a lively visual experience for a student, who is interested in going to the United States. The colors match the intent of the content, being US-related, but also because when we think of international sport, we think about national colors. 
 
-### Time line Images
-The timeline image follow the prepare (get ready), make contact (get set) and commit (go) theme. When we train and race as rowers there is loads of preparation/traing, the "make contact" relates to the race because communication/teamwork is so essential. As a rower you need to commit to your crew and your race plan to get a good result (go!). The images follow this story. The preparation page shows some rowers carrying their boat after a pracice paddle. The contact image is mid-race. The commit image shows a successful result of winning a medal. This visual story makes the site more interesting, the user more engaged and the content relatable. I tested a few versions of this with rowers before settling on the approach.
+### Time line Images (Goals 2, 4, 10)
+The timeline image follow the prepare (get ready), make contact (get set) and commit (go) theme. When we train and race as rowers there is loads of preparation/traing, the "make contact" relates to the race because communication/teamwork is so essential. As a rower you need to commit to your crew and your race plan to get a good result (go!). The images follow this story. 
+
+The preparation page shows some rowers carrying their boat after a pracice paddle. The contact image is mid-race. The commit image shows a successful result of winning a medal. This visual story makes the site more interesting, the user more engaged and the content relatable. I tested a few versions of this with rowers before settling on the approach.
+
+As mentioned above, each timeline page top image matches its respective webcard from the homepage.
 
 ### Prepare page
-This page summarizes the sorts of things young people should take into consideration when making a big decision about studying abroad. The site does not seek to repeat information that is already in the public domain,b but to help students figure out if going abroad to the US is right for them. The aim is to help rowers identifying some criteria for selecting a university, and to also help them undersand what recruiters are looking for. With this rowers can set recruiting goals, which is important. Recruiters are charming people and would be easy to choose a team because the coach is nice, but end up at a university that doesn't meet their needs. This why I recommend rowers to set goals and stick to them. 
+This page summarizes the sorts of things young people should take into consideration when making a big decision about studying abroad. The site does not seek to repeat information that is already in the public domain, but to help students figure out if going abroad to the US is right for them. The aim is to help rowers identifying some criteria for selecting a university, and to also help them undersand what recruiters are looking for. With this rowers can set recruiting goals, which is important. Recruiters are charming people and would be easy to choose a team because the coach is nice, but end up at a university that doesn't meet their needs. This why I recommend rowers to set goals and stick to them. 
 
 - The first box summarizes points to consider when presenting yourself to teams. This will help rowers make a document to present to recruiters.
 - The most viewed page on my current Wix website is about how to write a rowing CV. Box 2, summarizes the information that should be included.
@@ -116,7 +111,10 @@ Once a rower commits to a university, the coaching team will guide them through 
 - Links to further information are provided.
 - Icons are used to add interest and for quick visual scanning. 
 
+
 ![Snip of commit page](/docs/readme_images/commit_snip.jpg)
+
+
 
 ### Events page
 This is  a fictional page, however if it were to take place, Henley Royal Regatta would be a great place for it. It is the biggest rowing event on the calendar and most elite junior rowers would be participating. 
@@ -136,6 +134,9 @@ Although I can not show them here, I would like to reflect that producing them h
 
 ### Small screen focus
 Small screen focus: This will eventually be a live site I will use. I built a Wix site a year ago that I was unhappy with, and I plan to replace it with this. My experience is that most people look at my site on their phones. With this in mind, I built the sight first for the small screen and then wrote media queries to accommodate larger screens.
+
+### Screen Size
+I set the max-width of the website to 1600px, so that if someone views it on a very large monitor, it will not stretch so far that it becomes unattractive. 
 
 ### Colour Scheme
 I found my color scheme on a website called [Scheme Color](https://www.schemecolor.com/american-red-white-and-blue.php).  This was incredibly helpful as it provide the major color group for the American red, white and blue theme, shades of those colors and related colors. 
@@ -218,7 +219,7 @@ Note: I don't like websites that open email clients, but I don't yet know how to
     - Result: true
 
 ### Prepare page
--Expected: The background image, and all content is responsive from screen-sizes 300px and up.
+- Expected: The background image, and all content is responsive from screen-sizes 300px and up.
     - 1ST Result: FALSE - The boxes overlap between 600px and 972px. 
     - Fix: 
         - Moved prep-art-container media query into the larger screen size.
@@ -235,12 +236,12 @@ Note: I don't like websites that open email clients, but I don't yet know how to
 
 ### Make contact page
 
--Expected: The background image, and all content is responsive from screen-sizes 300px and up.
+- Expected: The background image, and all content is responsive from screen-sizes 300px and up.
     - Result: True
 There are no other links in this page in the main content. 
 
 ### Commit page
--Expected: The background image, and all content is responsive from screen-sizes 300px and up.
+- Expected: The background image, and all content is responsive from screen-sizes 300px and up.
     - Result: True, but some of the image rendering in the main content/grid setion is not ideally sized. I think it fits into an "Even better if" category at this late stage of the project and I will fix it if I have the time. Otherwise, I will fix it after project submission. 
 
 ### Events
@@ -254,7 +255,7 @@ There are no other links in this page in the main content.
 
 ## Responsiveness
 
-To test responsiveness, I opened the Chrome developer tools and used the inspect tool to test each page from 300px to full screen, and I also tested it on an [amiresponsive](https://ui.dev/amiresponsive) website
+To test responsiveness, I opened the Chrome developer tools and used the inspect tool to test each page from 300px to full screen (set to a max-width of 1600px), and I also tested it on an [amiresponsive](https://ui.dev/amiresponsive) website. 
 
 ![Snip from Am I Responsive](/docs/readme_images/responsive.jpg)
 
@@ -282,7 +283,7 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 ## Credits and Acknowledgments
 
 ### Overall Advice
-I would like to thank my mentor Daisy McGirr for outstanding guidance on this project. She gave me links to resources, and I have used her Milestone Project One README file for guidance on how to organize the document and what to include. 
+I would like to thank my mentor Daisy McGirr for outstanding guidance on this project. She gave me links to useful resources (for example to re-size images or to write git commit messages), and I have used her Milestone Project One README file for guidance on how to organize this document. 
 
 I relied heavily on [W3 Schools](https://www.w3schools.com/) reference materials throughout the project to check I was using the correct properties or for a refresher. 
 
