@@ -1,38 +1,49 @@
 # Go Row USA!
 ## Purpose
-While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, this site was built with a view to making it a live site to replace a Wix site I made last year.
+While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, it was also built with a view to making it a live site to replace a Wix site I made last year in the near future. The related event and email address is fictional, but in the future I plan to hold such events. 
 
 [Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is  designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the recruitment process in three stages, including preparation, communication (with coaches) and the further application process once commited to a team. 
 
-It gives as overview of steps in the process and provides curated links to useful information. The way these steps are conceptually organized matches the framework/mentality in which rowers train. I've tested this concept with rowing friends who immediately recognized this without prompting.
+The site gives as overview of steps in the process and provides curated links to useful information. The way the timeline is conceptually organized matches the framework/mentality in which rowers train and race. I've tested this concept with rowing friends who immediately recognized this without prompting.
 
-The site is predominantly relevant to women, as the scholarship and grant opportunities in rowing are almost exclusively for women. 
+The site is predominantly relevant to women, as the scholarship and grant opportunities in rowing are almost exclusively for women. You can visit the site [here](https://leah-jala.github.io/Portfolio-Project-One/index.html).
 
 ![Screenshot from amiresponsive.co.uk](/docs/readme_images/responsive.jpg)
 
 ## User Experience Goals
 ### First time visitor goals
-- The purpose of the website should be clear.
-- The site should be easy to navigate.
-- It should be easy to return to previously viewed content.
-- It should be clear which part of the site you are on.
-- A user should be able to find out more on social media platforms. 
+1. The purpose of the website should be clear.
+2. The site should be easy to navigate.
+3. It should be easy to return to previously viewed content.
+4. It should be clear which part of the site you are on.
+5. Links to any social media platforms should be easily found. 
+6. It should be easy to find out about events and to make contact with the organizeres. 
 
-## Features
+### Returning user goals
+7. A returning user should be able to easily pick up where they left off. 
+8. A returning user should easily find event information. 
+9. A returning user should easily find social media links and contact information.
 
-### Global
+## Feature response to user goals
 
-#### Navigation menu
+### Logo and page title (Goals 2, 3)
+A user can on any page click on the site logo and page title and return to the homepage. From the homepage, users can once again see the site summary for each page, and then use the page links to go directly to the page they need. 
+
+
+### Navigation menu (Goals 2, 3, 4, 7, 8)
+Users can easily navigate the site via the navigation menu and go directly to the pages they want to see. 
 - The navigation menu contains links to Home, a Timeline dropdown menu and an events page.
 - Users can easily navigate the site, and the dropdown menu assists viewing the site on small screens. 
-- A favicon star appears on the navigation menu, to help users know where they are. This is also true for the dropdown menu.
+- A fontawesome star appears on the navigation menu, to help users know where they are. This is also true for the timeline dropdown menu.
+
 ![Snip of navigation bar](/docs/readme_images/nav_snip.jpg)
 
 
-#### Footer
-- The footer contains links to social media sites and an email address, presented with icons. These icons are so familiar, that I didn't think it was necessary to add any additional text. To me it looked cleaner without that. 
-- This is for the moment a fictional site, but I do intend to replace my Wix site with this website. In future, the social media links will provide future information on news, US university programs, student experiences and events. 
+### Footer
+- The footer contains links to social media sites and an email address, presented with icons. These icons are so familiar, that I didn't think it was necessary to add any additional text. To me, it looked cleaner without that. 
+- This is for the moment a fictional site, so the links on the project site only lead to the main social media websites. In future, the social media links will provide news and information about US university programs, student experiences and events. 
 - The links use aria labels for accessibility.
+
 ![Screen shot of footer](/docs/readme_images/footer-snip.jpg)
 
 #### Favicons

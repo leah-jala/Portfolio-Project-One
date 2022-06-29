@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Roboto:wght@300;400&display=swap');
 
 /* Table of contents */
-    /* Global properties */
-    /* Font-Size and Letter Spacing */
-    /* Header, Logo and Nav bar */
-        /* Dropdown Button Rules */
-        /* Hero and section images */
-    /* Introduction Box for all pages*/
-    /* Homepage - 3 boxes/webcards with stages */
-    /* Footer */
-    /* Images - timeline/stage pages */
-    /* Prepare Page */
-    /* Contact page */
-    /* Commit page */
-    /* Events page */
-    /* Form rules */
-    /* Map rules */
-    /* Media Queries */
+/* Global properties */
+/* Font-Size and Letter Spacing */
+/* Header, Logo and Nav bar */
+/* Dropdown Button Rules */
+/* Hero and section images */
+/* Introduction Box for all pages*/
+/* Homepage - 3 boxes/webcards with stages */
+/* Footer */
+/* Images - timeline/stage pages */
+/* Prepare Page */
+/* Contact page */
+/* Commit page */
+/* Events page */
+/* Form rules */
+/* Map rules */
+/* Media Queries */
 
 
 /* Global properties */
@@ -585,6 +585,7 @@ input[type="radio"] {
 }
 
 /* Media Queries */
+
 
 @media only screen and (min-width: 600px) {
 
