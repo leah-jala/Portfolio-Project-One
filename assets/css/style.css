@@ -322,7 +322,7 @@ footer {
 
 .prep-art-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
     margin: 10px auto;
     gap: .5%;
 }
@@ -686,9 +686,7 @@ input[type="radio"] {
         margin-top: 75px;
     }
 
-    .prep-art-container {
-        grid-template-columns: repeat(2, minmax(300px, 1fr));
-    }
+
 
 
     .prep-box,
@@ -729,8 +727,13 @@ input[type="radio"] {
         border-right-style: solid;
         border-bottom-style: none;
     }
-}
 
+}
+@media only screen and (min-width: 1020px) {
+    .prep-art-container {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
 
 
 @media only screen and (min-width: 1200px) {
