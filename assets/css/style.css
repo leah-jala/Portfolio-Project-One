@@ -2,9 +2,10 @@
 
 /* Table of contents */
 /* Global properties */
+/* Font-Size and Letter Spacing */
 /* Header, Logo and Nav bar */
 /* Dropdown Button Rules */
-/* Hero image */
+/* Hero and section images */
 /* Introduction Box for all pages*/
 /* Homepage - 3 boxes/webcards with stages */
 /* Footer */
@@ -34,10 +35,6 @@ body {
     max-width: 1600px;
 }
 
-h1 {
-    font-size: 150%;
-}
-
 h3,
 h4,
 p {
@@ -56,6 +53,11 @@ li {
     padding: 0;
 }
 
+/* Font-Size */
+
+h1 {
+    font-size: 150%;
+}
 
 /* Header, Logo and Nav bar */
 
@@ -154,7 +156,7 @@ nav li {
     color: #E2CA94;
 }
 
-/* Hero image */
+/* Hero and section images */
 
 #hero-outer {
     display: block;
@@ -263,6 +265,7 @@ footer {
     margin-top: 0;
 }
 
+
 .social {
     display: flex;
     justify-content: center;
@@ -316,14 +319,15 @@ footer {
 
 
 /* Prepare Page */
-/* Grid Container for both articles and resource boxes */
+
 .prep-art-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(300px, 600px));
     justify-content: center;
     gap: .5%;
+    width: 1400px;
 }
-/* Article element */
+
 .prep-article {
     color: #3C3B6E;
     background-color: #FEFEFE;
@@ -337,7 +341,8 @@ footer {
     padding: 5px 5px 5px 20px;
 }
 
-.prep-image {
+#prep-art-one img,
+#prep-art-two img {
     display: block;
     object-fit: cover;
     height: 150px;
