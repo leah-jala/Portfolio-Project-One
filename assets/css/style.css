@@ -362,6 +362,7 @@ footer {
 /* Resource box and images and links */
 .prep-box,
 .small-img {
+    min-width: 250px;
     background-size: cover;
     background-position: center;
 }
@@ -384,7 +385,7 @@ footer {
 }
 
 .prep-box a {
-    color: #e6d09d;
+    color:#FEFEFE;
 }
 
 
