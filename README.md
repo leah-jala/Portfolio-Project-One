@@ -1,10 +1,22 @@
 # Go Row USA!
-[Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is a website designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the process in three stages of preparation, communicationw with coaches and the application process once commited to a team. 
+## Purpose
+While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, this site was built with a view to making it a live site to replace a Wix site I made last year.
 
-It gives as overview of steps in the process and provides curated links to useful information. The way these steps are conceptually organized matches the framework/mentality in which rowers train. I've tested this with rowing friends who immediately recognized this without prompting, and liked it very much.
+[Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is  designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the recruitment process in three stages, including preparation, communication (with coaches) and the further application process once commited to a team. 
+
+It gives as overview of steps in the process and provides curated links to useful information. The way these steps are conceptually organized matches the framework/mentality in which rowers train. I've tested this concept with rowing friends who immediately recognized this without prompting.
 
 The site is predominantly relevant to women, as the scholarship and grant opportunities in rowing are almost exclusively for women. 
-![Screenshot from amiresponsive.co.uk](/docs/readme_images/responsive.JPG)
+
+![Screenshot from amiresponsive.co.uk](/docs/readme_images/responsive.jpg)
+
+## User Experience Goals
+### First time visitor goals
+- The purpose of the website should be clear.
+- The site should be easy to navigate.
+- It should be easy to return to previously viewed content.
+- It should be clear which part of the site you are on.
+- A user should be able to find out more on social media platforms. 
 
 ## Features
 
