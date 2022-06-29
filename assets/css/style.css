@@ -327,7 +327,7 @@ footer {
     gap: .5%;
 }
 
-/* Upper boxes - main articles */
+/* All boxes */
 .prep-article {
     color: #3C3B6E;
     background-color: #FEFEFE;
@@ -336,11 +336,12 @@ footer {
     height: 100%;
     margin: 5px auto;
 }
-
+/* Second divs in Articles 1 and 2 */
 .prep-highlight p {
     padding: 5px 5px 5px 20px;
 }
 
+/* Images in articles 1 and 2 */
 #prep-art-one img,
 #prep-art-two img {
     display: block;
@@ -351,13 +352,14 @@ footer {
     margin: 0 auto 10px;
 }
 
+/* Resource box links sections */
 .prep-box-container {
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
     margin: 0 auto;
 }
-
+/* Resource box and images and links */
 .prep-box,
 .small-img {
     min-width: 250px;
@@ -385,7 +387,6 @@ footer {
 .prep-box a {
     color: #e6d09d;
 }
-
 
 
 /* Contact page */
@@ -588,9 +589,9 @@ input[type="radio"] {
 
 /* Media Queries */
 
-
 @media only screen and (min-width: 600px) {
 
+/* Navbar */
     #menu,
     h1 {
         font-size: 200%;
@@ -601,6 +602,7 @@ input[type="radio"] {
         font-size: 110%;
     }
 
+    /* Hero and timeline top images */
     #hero,
     #hero-outer,
     .stage-container,
@@ -610,6 +612,7 @@ input[type="radio"] {
         height: 300px;
     }
 
+    /* Homepage */
     .webcards li {
         margin: 0 10px;
     }
@@ -618,25 +621,26 @@ input[type="radio"] {
         height: 125px;
     }
 
+    /* Prepare page */
     #prep-art-one img,
     #prep-art-two img {
         height: 300px;
         width: auto;
     }
-
-    #questions img,
-    #art-two-top {
-        padding: 0 20px;
-    }
-
+    
     .small-img {
         height: 200px;
         width: 100%;
-
     }
 
     .prep-box ul {
         padding-left: 50px;
+    }
+
+    /* Make Contact page */
+    #questions img,
+    #art-two-top {
+        padding: 0 20px;
     }
 
     #contact-art-one img {
@@ -648,21 +652,19 @@ input[type="radio"] {
         float: right;
         padding-left: 20px;
     }
-
-    footer {
-        margin-top: 125px;
-    }
-
+    /* Events page */
     .map-container {
         width: 80%;
         margin: 0 auto;
     }
-
+    /* Footer */
+    footer {
+        margin-top: 125px;
+    }
 }
 
 @media only screen and (min-width: 850px) {
-
-
+    /* Intro boxes all pages */
     .intro-box {
         display: flex;
         flex-wrap: wrap;
@@ -684,21 +686,18 @@ input[type="radio"] {
         max-width: 70%;
     }
 
+    /* Footer */
     footer {
         margin-top: 75px;
     }
 
-
-
-
+    /* Prepare page */
     .prep-box,
     .small-img {
         height: 250px;
         max-width: 400px;
         flex: 1;
     }
-
-
 
     .prep-box li {
         text-decoration: inherit;
@@ -708,19 +707,17 @@ input[type="radio"] {
     #art-two-top {
         width: auto;
     }
-
+    /* Commit page */
     #quote {
         padding: 30px 20px;
     }
-
+    #commit-main {
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+    /* Events page */
     .events-wrapper {
         grid-template-columns: 1fr 1fr;
         gap: 1%;
-    }
-
-    #commit-main {
-        grid-template-columns: repeat(3, minmax(280px, 1fr));
-
     }
 }
 
@@ -732,6 +729,7 @@ input[type="radio"] {
 
 }
 @media only screen and (min-width: 1020px) {
+    /* Prepare page */
     .prep-art-container {
         grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
@@ -739,7 +737,7 @@ input[type="radio"] {
 
 
 @media only screen and (min-width: 1200px) {
-
+    /* All hero and timeline page top images */
     #hero,
     #hero-outer,
     .stage-container,
@@ -748,20 +746,19 @@ input[type="radio"] {
     #stage-three-img {
         height: 450px;
     }
-
+    /* Homepage */
     .webcards p {
         height: 100px;
     }
-
+    /* Events page */
     .events-intro {
         margin: 40px auto;
     }
-
-    footer {
-        margin-top: 35px;
-    }
-
     .form-container {
         max-width: 850px;
+    }
+/* Footer */
+    footer {
+        margin-top: 35px;
     }
 }
