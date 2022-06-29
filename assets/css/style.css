@@ -265,6 +265,7 @@ footer {
     margin-top: 0;
 }
 
+
 .social {
     display: flex;
     justify-content: center;
@@ -316,7 +317,9 @@ footer {
     background-color: #B42033;
 }
 
+
 /* Prepare Page */
+
 .prep-art-container {
     display: grid;
     grid-template-columns: repeat(1, minmax(300px, 600px));
@@ -337,7 +340,8 @@ footer {
     padding: 5px 5px 5px 20px;
 }
 
-.prep-article img {
+#prep-art-one img,
+#prep-art-two img {
     display: block;
     object-fit: cover;
     height: 150px;
@@ -612,7 +616,8 @@ input[type="radio"] {
         height: 125px;
     }
 
-   .prep-article img {
+    #prep-art-one img,
+    #prep-art-two img {
         height: 300px;
         width: auto;
     }
