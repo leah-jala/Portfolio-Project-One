@@ -1,10 +1,10 @@
 # Go Row USA!
 ## Purpose
-While this site was built for the purpose of competing the first Milestone Project for Code Institute's Software Development Course, it was also built with a view to making it a live site to replace a Wix site I made last year in the near future. The related event and email address is fictional, but in the future I plan to hold such events and provide genuine contact information. 
+While this site was built for the purpose of competing the first Portfolio Project for Code Institute's Software Development Course, it was also built with a view to making it a live site to replace a Wix site I made last year. The related event and email address is fictional, but in the future I plan to hold such events and provide genuine contact information. 
 
-[Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is  designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the recruitment process in three stages, including preparation, communication (with coaches) and the further application process once commited to a team. 
+[Go Row USA!](https://leah-jala.github.io/Portfolio-Project-One/index.html) is  designed for junior rowers in the United Kingdom who are thinking about studying and rowing in the United States. Many students and families feel bewildered by the process. This site seeks to present the recruitment process in three stages, including preparation, communication (with coaches) and the further application process once commited to a team and university.
 
-The site gives as overview of steps in the process and provides curated links to useful information. The way the timeline is conceptually organized matches the framework/mentality in which rowers train and race. I've tested this concept with rowing friends who immediately recognized this without prompting.
+The site gives an overview of steps in the process, and provides curated links to useful information. The way the timeline is conceptually organized matches the framework/mentality in which rowers train and race. I've tested this concept with rowing friends who immediately recognized this without prompting.
 
 The site is predominantly relevant to women, as the scholarship and grant opportunities in rowing are almost exclusively for women. You can visit the site [here](https://leah-jala.github.io/Portfolio-Project-One/index.html).
 
@@ -48,7 +48,7 @@ Users can easily navigate the site via the navigation menu and go directly to th
 
 - The introduction box tells the user what the purpose of the page is. It takes little time to read this information, so you can find out if you are on the page you need without having to read through longer articles. 
 
-- The star icon on the navigation menue gives further confirmation of where a user is on the site, as does the dropdown menu text.
+- The star icon on the navigation menu gives further confirmation of where a user is on the site, as does the dropdown menu text.
 
 - The homepage hero image differs from the timeline content. This is deliberate as it is more obvious when you have come back to the homepage.
 
@@ -169,6 +169,7 @@ My goals was to have responsive images that needed as few media queries as possi
 - Image tools
     - I used [Tiny png](https://tinypng.com/) to compress image files.
     - I converted my files from .jpg or .png to webp with [Online Convert](https://image.online-convert.com/convert-to-webp) and [Free Convert](https://www.freeconvert.com/download). My mentor, Daisy McGirr, advised me to you this format. 
+    - I used MS Paint to resize images.
 
 ## Website Testing
 
@@ -251,6 +252,8 @@ There are no other links in this page in the main content.
     - Result: True
 - Expected: The Google map, when clicked opens in a new browser to the correct location. 
     - Result: True
+- Expected: Success message on form submission.
+    - Result: True. I did this myself but also asked friends to do it too. Only two confirmed they had done it, but it was successful. 
 
 
 ## Responsiveness
@@ -261,13 +264,48 @@ To test responsiveness, I opened the Chrome developer tools and used the inspect
 
 ### Lighthouse
 I used Lighthouse to generate reports to audit performance, accessibility, best practice and SEO for mobile and desktops. The first reports I had were low on performance (under 70%) because my image sizes were far too large. I also had to do some minor work to provide the equivalent of the "alt text" on background images.
-- Desktop results
+- Desktop results - home page
 ![Lighthouse report for desktop](/docs/readme_images/lighthouse_desktop.JPG)
-- Mobile results
+- Mobile results - homepage
 ![Lighthouse report for mobiles](/docs/readme_images/lighthouse_mobile.JPG)
+
+I didn't realize until the night before submission, that Lighthouse needed to run on each individual page. This resulted in the need to resize a number of my photos and to convert them to the webp format. Because of large file sizes, the performance was low on the timeline pages.
+
+#### Results - listed in order of Performance, Accessibility, Best Practices, SEO
+My mentor recommended me to run Lighthouse on incognito mode, which I have done. 
+- Prepare page
+    - Desktop: 99/100/92/100
+        - Best practices are slightly low because of the image aspect ratio being incorrect.
+    - Mobile: 90/100/92/95 
+        - Performance - I should set a specific height and width to my images in the articles for a higher score.  
+        - SEO - Link sizes in the resource box are too small.
+        - Best practices - same as above
+- Make contact page
+    - Desktop: 100/100/100/100
+    - Mobile: 93/100/100/100
+        - The performance score is lower due to the size of an image. 
+- Commit page
+    - Desktop: 99/100/92/100
+        - Best practices is lower here due to the aspect ratio of photos.
+    - Mobile: 89/100/92/100
+        - Problems again relate to image size, and images that lack specific height and width.
+- Events page
+    Desktop: 100/100/100/100
+    Mobile: 96/100/100/100
+        - The problem identified was this: "Does not use passive listeners to improve scrolling performance." The solution here seems to need Javascript, which is beyond this project. 
 
 
 ### Validator testing
+
+I used [The W3C CSS Validation Service (Jigsaw)](https://jigsaw.w3.org/css-validator/) to validate the site's CSS, and tested each page of the site on [The W3C Markup Validation Service](https://validator.w3.org/index.html). A number of small errors were initially found including
+- Stray tags
+- Missing tags
+- Using a section element where a div should be used due to lacking a header. 
+- General syntax errors
+
+The above was easy and quick to fix.  I ran all the pages through the validators again and they all came back with no errors. 
+
+I noticed that Validators don't find missing alt text, so I search for "alt" on each page to make sure no further text was missing. 
 
 - HTML Validator
 ![HTML Validator snip](/docs/readme_images/html-validator.JPG)
@@ -275,7 +313,12 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 ![W3C CSS validation service](/docs/readme_images/css-validator.JPG)
 
 ### Unfixed bugs
+I found working with images in this first project a struggle, and it is an area I will need to work on. As demonstrated above in the testing, problem with my images related to 
+    - size
+    - aspect ratio
+I did not find the time to resolve these issues prior to submission. 
 
+The image on the prepare page is not of a high enough resoluation. I kept this image because I wanted to keep to a specific theme and I did not have enough variety of the girls in those uniforms. They are presently racing at Henley and I hope to be able to buy some high resolution photos to be able to replace this one with very soon. 
 
 ## Deployment
 
@@ -283,12 +326,19 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 ## Credits and Acknowledgments
 
 ### Overall Advice
-I would like to thank my mentor Daisy McGirr for outstanding guidance on this project. She gave me links to useful resources (for example to re-size images or to write git commit messages), and I have used her Milestone Project One README file for guidance on how to organize this document. 
+I would like to thank my mentor Daisy McGirr for outstanding guidance on this project. She gave me links to useful resources (for example how to write git commit messages, and links to sites like TinyPNG and Convertio), and I have used her Milestone Project One README file for guidance on how to organize this document. 
 
 I relied heavily on [W3 Schools](https://www.w3schools.com/) reference materials throughout the project to check I was using the correct properties or for a refresher. 
 
+### Page layout
+I've noticed many sites use a similar sort of layout to what I have used here. I have been inspired by a site called [BeRecruited.com](https://new.berecruited.com/), which my family used when my daughters during their recruitment. I didn't include a link to it on my site, as it is focussed on free advice. 
+
+I found a tutorial on LinkedIn Learning called, ![CSS: Combining Grid and Flexbox](/docs/readme_images/linkedin-kay.j) by Emily Kay, which inspired much of my homepage and layout. Her demo has an intoduction box and webcards. I did not copy it directly, and I did not watch the whole tutorial, but there is a clear influence that needs to be acknowledged. This is how I got the idea to build for small screens first, to have a maximum width the the whole page, and how to make a layout responsive. 
+
+
+
 ### Set up
-I relied on the Love Running walkthrough project to initially get this website set up with github and gitpod. 
+I relied on the Love Running walkthrough project for the first steps of getting this website set up with github and gitpod. 
 
 ### Navbar
 I used the Love Running nav bar as a model to initially make my navigation bar and menu.
