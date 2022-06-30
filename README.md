@@ -173,7 +173,6 @@ My goals was to have responsive images that needed as few media queries as possi
 
 ## Website Testing
 
-
 ### Logo (All pages)
 - Expected: Clicking on the logo from any page brings you to the homepage.      
     Result: True
@@ -271,7 +270,7 @@ I used Lighthouse to generate reports to audit performance, accessibility, best 
 
 I didn't realize until the night before submission, that Lighthouse needed to run on each individual page. This resulted in the need to resize a number of my photos and to convert them to the webp format. Because of large file sizes, the performance was low on the timeline pages.
 
-#### Results - listed in order of Performance, Accessibility, Best Practices, SEO
+#### Light House Results on Timeline and Events Pages, listed in order of Performance, Accessibility, Best Practices, SEO
 My mentor recommended me to run Lighthouse on incognito mode, which I have done. 
 - Prepare page
     - Desktop: 99/100/92/100
@@ -316,11 +315,28 @@ I noticed that Validators don't find missing alt text, so I search for "alt" on 
 I found working with images in this first project a struggle, and it is an area I will need to work on. As demonstrated above in the testing, problem with my images related to 
     - size
     - aspect ratio
-I did not find the time to resolve these issues prior to submission. 
 
 The image on the prepare page is not of a high enough resoluation. I kept this image because I wanted to keep to a specific theme and I did not have enough variety of the girls in those uniforms. They are presently racing at Henley and I hope to be able to buy some high resolution photos to be able to replace this one with very soon. 
 
+I did not find the time to resolve these issues prior to submission, but I plan to resolve these issues once the project is graded and I have further feedback.
+
 ## Deployment
+### Project Set up
+This project was created using GitHub, Gitpod and Code Institute's Template. To set up a project:
+- Go to GitHub, and click on "Create a New Repository". 
+- Select the Code Institute Repository template,
+- Give the repository a name,
+- Decide whether to make the project public,
+- Add a README file,
+- Click the button at the bottom to create a repository.
+
+Once created, go the the repository and click on the GitPod button to create and launch a workspace. This requires a [browser extension](https://www.gitpod.io/docs/browser-extension).
+### Launching a website
+- Got to your repository.
+- Go to settings, then pages
+- In "Git Hub Pages," choose main as the branch.
+- Save these settings.
+- A link will appear, and may take some time to become live.
 
 
 ## Credits and Acknowledgments
@@ -331,11 +347,9 @@ I would like to thank my mentor Daisy McGirr for outstanding guidance on this pr
 I relied heavily on [W3 Schools](https://www.w3schools.com/) reference materials throughout the project to check I was using the correct properties or for a refresher. 
 
 ### Page layout
-I've noticed many sites use a similar sort of layout to what I have used here. I have been inspired by a site called [BeRecruited.com](https://new.berecruited.com/), which my family used when my daughters during their recruitment. I didn't include a link to it on my site, as it is focussed on free advice. 
-
-I found a tutorial on LinkedIn Learning called, ![CSS: Combining Grid and Flexbox](/docs/readme_images/linkedin-kay.j) by Emily Kay, which inspired much of my homepage and layout. Her demo has an intoduction box and webcards. I did not copy it directly, and I did not watch the whole tutorial, but there is a clear influence that needs to be acknowledged. This is how I got the idea to build for small screens first, to have a maximum width the the whole page, and how to make a layout responsive. 
-
-
+![CSS: Combining Grid and Flexbox](/docs/readme_images/linkedin-kay.JPG) 
+ 
+I found a tutorial on LinkedIn Learning called, "CSS: Combining Grid and Flexbox," by Emily Kay. This inspired my homepage  layout. Her demo has an intoduction box and makes use of webcards. I did not copy it directly, and I did not watch the whole tutorial, but there is an obvious influence here that needs to be acknowledged. This is how I got the idea to build for small screens first, to have a maximum width the the whole page, how to make a layout responsive, and how to create "webcards" from an unordered list.
 
 ### Set up
 I relied on the Love Running walkthrough project for the first steps of getting this website set up with github and gitpod. 
